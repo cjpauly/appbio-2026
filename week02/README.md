@@ -25,8 +25,10 @@ I am doing bioinformatics at the command line. I need a Makefile that will:
 Prompts used to make modifications:
 
 The makefile failed, reporting this:  
-`tbx_index_build3 failed: gff/Porphyromonas_gingivalis.gff.gz`  
-`make: \*\*\* \[Makefile:43: gff/Porphyromonas_gingivalis.gff.gz.tbi\] Error 1`
+```
+tbx_index_build3 failed: gff/Porphyromonas_gingivalis.gff.gz  
+make: \*\*\* \[Makefile:43: gff/Porphyromonas_gingivalis.gff.gz.tbi\] Error 1
+```
 
 Is this makefile unzipping and then re-zipping the gff file? Why does the gff file need to be sorted and re-zipped?
 
